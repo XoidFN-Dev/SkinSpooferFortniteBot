@@ -1,0 +1,9 @@
+run = "node ."
+modules = ["python-3.10:v25-20230920-d4ad2e4"]
+
+[deployment]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 3000
+externalPort = 3000
